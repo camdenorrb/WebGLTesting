@@ -1,0 +1,20 @@
+Courses:
+https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial
+https://webglfundamentals.org/
+
+
+https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial/Adding_2D_content_to_a_WebGL_context
+Vertex Shader: Transform input vertices to clip space
+Clip space: -1 to 1 in X, Y, Z
+Fragment Shader: Called once for each pixel, determines color of pixel based on Texel
+Texel: Pixel from a texture. Can be determined by vertex shader
+
+https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial/Using_shaders_to_apply_color_in_WebGL
+Varyings: Variables passed from vertex shader to fragment shader
+Interpolation: Automatically creates smooth gradients between vertices by default
+
+https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial/Animating_objects_with_WebGL
+
+https://webglfundamentals.org/webgl/lessons/webgl-3d-perspective.html
+Projection matrix: Just accounts for Z by dividing X and Y by Z. This makes subsequent draws smaller as Z increases
+FudgeFactor: How much to multiply the Z before dividing X and Y. Probably made up word by the author
